@@ -1,4 +1,4 @@
-# 🚀 CodeSync
+# CodeSync
 
 **Real-time Collaborative Code Editor** — Code together, in sync, from anywhere.
 
@@ -11,19 +11,19 @@ CodeSync is a modern collaborative code editor that allows multiple developers t
 
 ---
 
-## ✨ Features
+## Features
 
-- **🔄 Real-time Collaboration** — Multiple users can edit the same code simultaneously
-- **👀 Live Cursors** — See where other collaborators are typing in real-time
-- **👥 User Presence** — View avatars of all connected users
-- **↩️ Undo/Redo** — Individual undo/redo history for each user
-- **🎨 Syntax Highlighting** — JavaScript/TypeScript syntax highlighting with CodeMirror
-- **⚡ Instant Sync** — Changes appear instantly across all connected clients
-- **🎯 Conflict-Free** — Built on Yjs CRDT for seamless conflict resolution
+- **Real-time Collaboration** — Multiple users can edit the same code simultaneously
+- **Live Cursors** — See where other collaborators are typing in real-time
+- **User Presence** — View avatars of all connected users
+- **Undo/Redo** — Individual undo/redo history for each user
+- **Syntax Highlighting** — JavaScript/TypeScript syntax highlighting with CodeMirror
+- **Instant Sync** — Changes appear instantly across all connected clients
+- **Conflict-Free** — Built on Yjs CRDT for seamless conflict resolution
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Technology | Purpose |
 |------------|---------|
@@ -37,7 +37,7 @@ CodeSync is a modern collaborative code editor that allows multiple developers t
 
 ---
 
-## 🚀 Getting Started
+##Getting Started
 
 ### Prerequisites
 
@@ -49,8 +49,8 @@ CodeSync is a modern collaborative code editor that allows multiple developers t
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/codesync.git
-   cd codesync
+   git clone https://github.com/Saurabh-1785/CodeSync.git
+   cd CodeSync
    ```
 
 2. **Install dependencies**
@@ -78,7 +78,7 @@ CodeSync is a modern collaborative code editor that allows multiple developers t
 
 ---
 
-## 🧪 Testing Collaboration
+## Testing Collaboration
 
 To test real-time collaboration:
 
@@ -90,7 +90,7 @@ Each tab simulates a different user with their own cursor and avatar.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 codesync/
@@ -117,7 +117,7 @@ codesync/
 
 ---
 
-## 👥 Default Users
+## Default Users
 
 The app includes 7 preset user profiles for testing:
 
@@ -145,61 +145,3 @@ Users are randomly assigned when connecting. To customize, edit `src/app/api/liv
 | `npm run lint` | Run ESLint |
 
 ---
-
-## 🌐 Deployment
-
-### Deploy on Vercel (Recommended)
-
-1. Push your code to GitHub
-2. Import the project on [Vercel](https://vercel.com/new)
-3. Add your `LIVEBLOCKS_SECRET_KEY` in Environment Variables
-4. Deploy!
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/codesync)
-
-### Other Platforms
-
-The app can be deployed on any platform that supports Next.js:
-- [Netlify](https://www.netlify.com/)
-- [Railway](https://railway.app/)
-- [Render](https://render.com/)
-- Self-hosted with Docker
-
----
-
-## 📚 Learn More
-
-- [Liveblocks Documentation](https://liveblocks.io/docs)
-- [Yjs Documentation](https://docs.yjs.dev/)
-- [CodeMirror Documentation](https://codemirror.net/docs/)
-- [Next.js Documentation](https://nextjs.org/docs)
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-## 💬 Support
-
-If you have any questions or run into issues, please [open an issue](https://github.com/yourusername/codesync/issues) on GitHub.
-
----
-
-<p align="center">
-  Made with ❤️ by <a href="https://github.com/saurabh1785">Saurabh</a>
-</p>
